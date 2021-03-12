@@ -230,11 +230,14 @@
                     </li>
                     <li class="service-list__item">
                         <h2 class="service-list__title">ГАРАНТИЯ</h2>
-                        <p class="service-list__description">Если купленный у нас товар поломается или заискрит, а также в случае пожара, спровоцированного его возгоранием, вы всегда можете быть уверены в нашей гарантии. Мы обменяем сгоревший товар на новый. Дом уж восстановите как-нибудь сами.</p>
+                        <p class="service-list__description">Если купленный у нас товар поломается или заискрит, а также
+                            в случае пожара, спровоцированного его возгоранием, вы всегда можете быть уверены в нашей
+                            гарантии. Мы обменяем сгоревший товар на новый. Дом уж восстановите как-нибудь сами.</p>
                     </li>
                     <li class="service-list__item">
                         <h2 class="service-list__title">КРЕДИТ</h2>
-                        <p class="service-list__description">Залезть в долговую яму стало проще! Кредитные консультанты придут вам на помощь.</p>
+                        <p class="service-list__description">Залезть в долговую яму стало проще! Кредитные консультанты
+                            придут вам на помощь.</p>
                     </li>
                 </ul>
             </div>
@@ -266,6 +269,31 @@
                 <a class="about-company__mail-button">Заблудились? Напишите нам!</a>
             </div>
         </section>
+
+        <!-- Modal -->
+        
+        <div class="modal__map visually-hidden">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6036253003197!2d30.320858716187995!3d59.938719169054025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1615553329764!5m2!1sru!2sru"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <button class="modal__close modal__map-close" type="button" aria-label="Закрыть"></button>
+        </div>
+
+        <div class="modal__feedback visually-hidden">
+            <form class="modal__feedback-form feedback">
+                <label class="feedback__name">
+                    <span class="feedback__text">Ваше имя:</span>
+                    <input class="feedback__input" type="text" name="name" placeholder="Имя Фамилия">
+                </label>
+                <label class="feedback__mail">
+                    <span class="feedback__text">Ваш e-mail:</span>
+                    <input class="feedback__input" type="email" name="mail" placeholder="email@example.com">
+                </label>
+                <textarea class="feedback__message" name="message" placeholder="В свободной форме"></textarea>
+                <button class="feedback__button" type="submit">Отправить</button>
+            </form>
+            <button class="modal__close modal__feedback-close" type="button" aria-label="Закрыть"></button>
+        </div>
     </main>
 
     <footer class="footer">
