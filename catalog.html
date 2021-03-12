@@ -69,7 +69,69 @@
         <div class="catalog-wrapper">
             <section class="filter">
                 <h4 class="filter__title">Фильтр:</h4>
-                <!-- Здесь будет форма фильтра -->
+                <form class="filter__form" method="GET" action="#">
+                    <fieldset class="filter__range range">
+                        <legend class="range__title">ЦЕНА:</legend>
+                        <div class="range">
+                            <div class="range__controls">
+                                <div class="range__scale">
+                                    <div class="range__bar"></div>
+                                </div>
+                                <div class="range__toggle toggle-min" tabindex="0"></div>
+                                <div class="range__toggle toggle-max" tabindex="0"></div>
+                            </div>
+                        </div>
+
+                        <div class="range__value">
+                            <label>
+                                <input class="range__input" type="text" name="min-price" value="0" />
+                            </label>
+                            <label>
+                                <input class="range__input" type="text" name="max-price" value="30000" />
+                            </label>
+                        </div>
+                    </fieldset>
+
+                    <fieldset class="filter__checkbox checkbox">
+                        <h3 class="checkbox__title">ПРОИЗВОДИТЕЛИ:</h3>
+                        <label class="checkbox__item">
+                            <input class="checkbox__input" type="checkbox" name="BOSCH" checked />
+                            <span class="checkbox__box"> </span>
+                            <span class="checkbox__text">BOSCH</span>
+                        </label>
+                        <label class="checkbox__item">
+                            <input class="checkbox__input" type="checkbox" name="ИНТЕРСКОЛ" />
+                            <span class="checkbox__box"> </span>
+                            <span class="checkbox__text">ИНТЕРСКОЛ</span>
+                        </label>
+                        <label class="checkbox__item">
+                            <input class="checkbox__input" type="checkbox" name="MAKIta" checked />
+                            <span class="checkbox__box"> </span>
+                            <span class="checkbox__text">MAKIta</span>
+                        </label>
+                        <label class="checkbox__item">
+                            <input class="checkbox__input" type="checkbox" name="Dewalt" />
+                            <span class="checkbox__box"> </span>
+                            <span class="checkbox__text">Dewalt</span>
+                        </label>
+                        <label class="checkbox__item">
+                            <input class="checkbox__input" type="checkbox" name="Hitachi" />
+                            <span class="checkbox__box"> </span>
+                            <span class="checkbox__text">Hitachi</span>
+                        </label>
+                    </fieldset>
+
+                    <fieldset class="filter__radiobutton radio">
+                        <h3 class="radio__title">ПИТАНИЕ:</h3>
+                        <input class="radio__input" type="radio" id="battery" name="charge" value="battery" checked>
+                        <label class="radio__text" for="battery">Аккумуляторные</label>
+
+                        <input class="radio__input" type="radio" id="socket" name="charge" value="socket">
+                        <label class="radio__text" for="socket">Сетевые</label>
+                    </fieldset>
+
+                    <button class="filter__button" type="submit">ПОКАЗАТЬ</button>
+                </form>
             </section>
 
             <section class="product">
@@ -222,12 +284,15 @@
 
         <section class="about-product">
             <h2 class="about-product__title">ПАРА СЛОВ О ПЕРФОРАТОРАХ</h2>
-            <p class="about-product__description">Перфоратор — универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне.
-                Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели, шуруповерта и отбойного молотка. 
-                В ассортиментном ряду есть выбор «трехрежимников»: в одном устройстве будут совмещены отбойный молоток и ударная дрель.</p>
+            <p class="about-product__description">Перфоратор — универсальный строительный инструмент. Предназначен для
+                сверления и долбления отверстий в кирпиче, бетоне и камне.
+                Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции
+                дрели, шуруповерта и отбойного молотка.
+                В ассортиментном ряду есть выбор «трехрежимников»: в одном устройстве будут совмещены отбойный молоток и
+                ударная дрель.</p>
         </section>
     </main>
-    
+
     <footer class="footer">
         <div class="footer__contacts">
             <a class="footer__logo" href="#">
@@ -305,4 +370,5 @@
     </footer>
 
 </body>
+
 </html>
