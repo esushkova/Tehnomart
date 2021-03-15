@@ -6,7 +6,7 @@
     <title>HTML Academy: Техномарт</title>
 </head>
 
-<body class="page__body">
+<body class="body">
 
     <header class="header">
         <div class="header__user-nav user-nav">
@@ -14,8 +14,8 @@
                 <img src="http://placehold.it/108x18" width="108" height="18" alt="Логотип">
             </a>
 
-            <form class="search__form">
-                <input class="search__input" type="submit" placeholder="Поиск:">
+            <form class="user-nav__search-form">
+                <input class="user-nav__input" type="submit" placeholder="Поиск:">
             </form>
 
             <a class="user-nav__bookmarks" href="#">Закладки</a>
@@ -96,62 +96,62 @@
             </div>
         </section>
 
-        <section class="popular-goods">
-            <div class="popular-goods__wrapper popular">
+        <section class="popular-product">
+            <div class="popular-product__wrapper popular">
                 <h2 class="popular__title">Популярные товары:</h2>
                 <a class="popular__link" href="">Все популярные товары</a>
             </div>
-            <ul class="popular-goods__list">
-                <li class="popular-goods__item product__item">
-                    <div class="product__img">
+            <ul class="popular-product__list">
+                <li class="popular-product__item product-item">
+                    <div class="product-item__img">
                         <img src="http://placehold.it/184x164" width="184" height="164" alt="Перфоратор BOSCH BFG 9000">
                     </div>
-                    <div class="product__acts">
-                        <a class="product__buy" href="">Купить</a>
-                        <a class="product__bookmarks" href="">В закладки</a>
+                    <div class="product-item__action">
+                        <a class="product-item__buy" href="">Купить</a>
+                        <a class="product-item__bookmarks" href="">В закладки</a>
                     </div>
-                    <h3 class="product__title">Перфоратор BOSCH BFG 9000</h3>
-                    <p class="product__price">32500 Р.</p>
-                    <a class="product__discount" href="">25500 Р.</a>
+                    <h3 class="product-item__title">Перфоратор BOSCH BFG 9000</h3>
+                    <p class="product-item__price">32500 Р.</p>
+                    <a class="product-item__discount" href="">25500 Р.</a>
                 </li>
 
-                <li class="popular-goods__item product__item">
-                    <div class="product__img">
+                <li class="popular-product__item product-item">
+                    <div class="product-item__img">
                         <img src="http://placehold.it/127x112" width="127" height="112" alt="Перфоратор BOSCH BFG 3000">
                     </div>
-                    <div class="product__acts">
-                        <a class="product__buy" href="">Купить</a>
-                        <a class="product__bookmarks" href="">В закладки</a>
+                    <div class="product-item__action">
+                        <a class="product-item__buy" href="">Купить</a>
+                        <a class="product-item__bookmarks" href="">В закладки</a>
                     </div>
-                    <h3 class="product__title">Перфоратор BOSCH BFG 3000</h3>
-                    <p class="product__price">22500 Р.</p>
-                    <a class="product__discount" href="">15500 Р.</a>
+                    <h3 class="product-item__title">Перфоратор BOSCH BFG 3000</h3>
+                    <p class="product-item__price">22500 Р.</p>
+                    <a class="product-item__discount" href="">15500 Р.</a>
                 </li>
 
-                <li class="popular-goods__item product__item">
-                    <div class="product__img">
+                <li class="popular-product__item product-item">
+                    <div class="product-item__img">
                         <img src="http://placehold.it/144x128" width="144" height="128" alt="Перфоратор BOSCH BFG 6000">
                     </div>
-                    <div class="product__acts">
-                        <a class="product__buy" href="">Купить</a>
-                        <a class="product__bookmarks" href="">В закладки</a>
+                    <div class="product-item__action">
+                        <a class="product-item__buy" href="">Купить</a>
+                        <a class="product-item__bookmarks" href="">В закладки</a>
                     </div>
-                    <h3 class="product__title">Перфоратор BOSCH BFG 6000</h3>
-                    <p class="product__price">30500 Р.</p>
-                    <a class="product__discount" href="">25500 Р.</a>
+                    <h3 class="product-item__title">Перфоратор BOSCH BFG 6000</h3>
+                    <p class="product-item__price">30500 Р.</p>
+                    <a class="product-item__discount" href="">25500 Р.</a>
                 </li>
 
-                <li class="popular-goods__item product__item">
-                    <div class="product__img">
+                <li class="popular-product__item product-item">
+                    <div class="product-item__img">
                         <img src="http://placehold.it/127x112" width="127" height="112" alt="Перфоратор BOSCH BFG 2000">
                     </div>
-                    <div class="product__acts">
-                        <a class="product__buy" href="">Купить</a>
-                        <a class="product__bookmarks" href="">В закладки</a>
+                    <div class="product-item__action">
+                        <a class="product-item__buy" href="">Купить</a>
+                        <a class="product-item__bookmarks" href="">В закладки</a>
                     </div>
-                    <h3 class="product__title">Перфоратор BOSCH BFG 2000</h3>
-                    <p class="product__price">22500 Р.</p>
-                    <a class="product__discount" href="">12500 Р.</a>
+                    <h3 class="product-item__title">Перфоратор BOSCH BFG 2000</h3>
+                    <p class="product-item__price">22500 Р.</p>
+                    <a class="product-item__discount" href="">12500 Р.</a>
                 </li>
             </ul>
         </section>
@@ -224,18 +224,18 @@
                 </div>
                 <ul class="service__list service-list">
                     <li class="service-list__item">
-                        <h2 class="service-list__title">ДОСТАВКА</h2>
+                        <h3 class="service-list__title">ДОСТАВКА</h3>
                         <p class="service-list__description">Мы с удовольствием доставим ваш товар прямо к вашему
                             подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж!</p>
                     </li>
                     <li class="service-list__item">
-                        <h2 class="service-list__title">ГАРАНТИЯ</h2>
+                        <h3 class="service-list__title">ГАРАНТИЯ</h3>
                         <p class="service-list__description">Если купленный у нас товар поломается или заискрит, а также
                             в случае пожара, спровоцированного его возгоранием, вы всегда можете быть уверены в нашей
                             гарантии. Мы обменяем сгоревший товар на новый. Дом уж восстановите как-нибудь сами.</p>
                     </li>
                     <li class="service-list__item">
-                        <h2 class="service-list__title">КРЕДИТ</h2>
+                        <h3 class="service-list__title">КРЕДИТ</h3>
                         <p class="service-list__description">Залезть в долговую яму стало проще! Кредитные консультанты
                             придут вам на помощь.</p>
                     </li>
@@ -269,35 +269,6 @@
                 <a class="about-company__mail-button">Заблудились? Напишите нам!</a>
             </div>
         </section>
-
-        <!-- Modal -->
-
-        <div class="modal__map visually-hidden">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6036253003197!2d30.320858716187995!3d59.938719169054025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1615553329764!5m2!1sru!2sru"
-                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            <button class="modal__close modal__map-close" type="button" aria-label="Закрыть"></button>
-        </div>
-
-        <div class="modal__feedback visually-hidden">
-            <form class="modal__feedback-form feedback" method="GET" action="#">
-                <div class="feedback__input-wrapper">
-                    <label class="feedback__name">
-                        <span class="feedback__text">Ваше имя:</span>
-                        <input class="feedback__input" type="text" name="name" placeholder="Имя Фамилия">
-                    </label>
-                    <label class="feedback__mail">
-                        <span class="feedback__text">Ваш e-mail:</span>
-                        <input class="feedback__input" type="email" name="mail" placeholder="email@example.com">
-                    </label>
-                </div>
-                <label class="feedback__message-text" for="message">Текст письма:</label>
-                <textarea class="feedback__message" id="message" name="message"
-                    placeholder="В свободной форме"></textarea>
-                <button class="feedback__button" type="submit">Отправить</button>
-            </form>
-            <button class="modal__close modal__feedback-close" type="button" aria-label="Закрыть"></button>
-        </div>
     </main>
 
     <footer class="footer">
@@ -375,6 +346,34 @@
             </div>
         </div>
     </footer>
+
+    <!-- Modal -->
+
+    <div class="modal-map visually-hidden">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6036253003197!2d30.320858716187995!3d59.938719169054025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1615553329764!5m2!1sru!2sru"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <button class="modal-map__close modal-close" type="button" aria-label="Закрыть"></button>
+    </div>
+
+    <div class="modal-feedback visually-hidden">
+        <form class="modal-feedback__form feedback" method="GET" action="#">
+            <div class="feedback__input-wrapper">
+                <label class="feedback__name">
+                    <span class="feedback__text">Ваше имя:</span>
+                    <input class="feedback__input" type="text" name="name" placeholder="Имя Фамилия">
+                </label>
+                <label class="feedback__mail">
+                    <span class="feedback__text">Ваш e-mail:</span>
+                    <input class="feedback__input" type="email" name="mail" placeholder="email@example.com">
+                </label>
+            </div>
+            <label class="feedback__message-text" for="message">Текст письма:</label>
+            <textarea class="feedback__message" id="message" name="message" placeholder="В свободной форме"></textarea>
+            <button class="feedback__button" type="submit">Отправить</button>
+        </form>
+        <button class="modal-feedback__close modal-close" type="button" aria-label="Закрыть"></button>
+    </div>
 
 </body>
 
