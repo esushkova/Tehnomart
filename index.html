@@ -96,17 +96,17 @@
             </div>
         </section>
 
-        <section class="popular-product">
-            <div class="popular-product__wrapper popular">
+        <section class="popular-products">
+            <div class="popular-products__wrapper popular">
                 <h2 class="popular__title">Популярные товары:</h2>
                 <a class="popular__link" href="">Все популярные товары</a>
             </div>
-            <ul class="popular-product__list">
-                <li class="popular-product__item product-item">
+            <ul class="popular-products__list">
+                <li class="popular-products__item product-item">
                     <div class="product-item__img">
                         <img src="http://placehold.it/184x164" width="184" height="164" alt="Перфоратор BOSCH BFG 9000">
                     </div>
-                    <div class="product-item__action">
+                    <div class="product-item__actions">
                         <a class="product-item__buy" href="">Купить</a>
                         <a class="product-item__bookmarks" href="">В закладки</a>
                     </div>
@@ -115,11 +115,11 @@
                     <a class="product-item__discount" href="">25500 Р.</a>
                 </li>
 
-                <li class="popular-product__item product-item">
+                <li class="popular-products__item product-item">
                     <div class="product-item__img">
                         <img src="http://placehold.it/127x112" width="127" height="112" alt="Перфоратор BOSCH BFG 3000">
                     </div>
-                    <div class="product-item__action">
+                    <div class="product-item__actions">
                         <a class="product-item__buy" href="">Купить</a>
                         <a class="product-item__bookmarks" href="">В закладки</a>
                     </div>
@@ -128,11 +128,11 @@
                     <a class="product-item__discount" href="">15500 Р.</a>
                 </li>
 
-                <li class="popular-product__item product-item">
+                <li class="popular-products__item product-item">
                     <div class="product-item__img">
                         <img src="http://placehold.it/144x128" width="144" height="128" alt="Перфоратор BOSCH BFG 6000">
                     </div>
-                    <div class="product-item__action">
+                    <div class="product-item__actions">
                         <a class="product-item__buy" href="">Купить</a>
                         <a class="product-item__bookmarks" href="">В закладки</a>
                     </div>
@@ -141,11 +141,11 @@
                     <a class="product-item__discount" href="">25500 Р.</a>
                 </li>
 
-                <li class="popular-product__item product-item">
+                <li class="popular-products__item product-item">
                     <div class="product-item__img">
                         <img src="http://placehold.it/127x112" width="127" height="112" alt="Перфоратор BOSCH BFG 2000">
                     </div>
-                    <div class="product-item__action">
+                    <div class="product-item__actions">
                         <a class="product-item__buy" href="">Купить</a>
                         <a class="product-item__bookmarks" href="">В закладки</a>
                     </div>
@@ -353,26 +353,26 @@
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6036253003197!2d30.320858716187995!3d59.938719169054025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1615553329764!5m2!1sru!2sru"
             width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        <button class="modal-map__close modal-close" type="button" aria-label="Закрыть"></button>
+        <button class="modal-map__close" type="button" aria-label="Закрыть"></button>
     </div>
 
     <div class="modal-feedback visually-hidden">
-        <form class="modal-feedback__form feedback" method="GET" action="#">
-            <div class="feedback__input-wrapper">
-                <label class="feedback__name">
-                    <span class="feedback__text">Ваше имя:</span>
-                    <input class="feedback__input" type="text" name="name" placeholder="Имя Фамилия">
+        <form class="modal-feedback__form feedback-form" method="GET" actions="#">
+            <div class="feedback-form__input-wrapper">
+                <label class="feedback-form__name">
+                    <span class="feedback-form__text">Ваше имя:</span>
+                    <input class="feedback-form__input" type="text" name="name" placeholder="Имя Фамилия">
                 </label>
-                <label class="feedback__mail">
-                    <span class="feedback__text">Ваш e-mail:</span>
-                    <input class="feedback__input" type="email" name="mail" placeholder="email@example.com">
+                <label class="feedback-form__mail">
+                    <span class="feedback-form__text">Ваш e-mail:</span>
+                    <input class="feedback-form__input" type="email" name="mail" placeholder="email@example.com">
                 </label>
             </div>
-            <label class="feedback__message-text" for="message">Текст письма:</label>
-            <textarea class="feedback__message" id="message" name="message" placeholder="В свободной форме"></textarea>
-            <button class="feedback__button" type="submit">Отправить</button>
+            <label class="feedback-form__message-text" for="message">Текст письма:</label>
+            <textarea class="feedback-form__message" id="message" name="message" placeholder="В свободной форме"></textarea>
+            <button class="feedback-form__button" type="submit">Отправить</button>
         </form>
-        <button class="modal-feedback__close modal-close" type="button" aria-label="Закрыть"></button>
+        <button class="modal-feedback__close" type="button" aria-label="Закрыть"></button>
     </div>
 
 </body>
