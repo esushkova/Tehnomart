@@ -1,10 +1,6 @@
 .user-nav {
-    display: flex;
     background: #293449;
     margin-bottom: 41px;
-    padding-right: 130px;
-    padding-left: 130px;
-    justify-content: space-between;
 }
 
 .user-nav__bookmarks {
@@ -14,6 +10,20 @@ font-style: normal;
 font-weight: normal;
 font-size: 18px;
 line-height: 24px;
+color: #FFFFFF;
+margin-top: 9px;
+margin-bottom: 9px;
+margin-right: 5px;
+}
+
+.user-nav__bookmarks-value {
+    font-family: "Cuprum", "Arial", sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+display: flex;
+align-items: baseline;
 color: #FFFFFF;
 margin-top: 9px;
 margin-bottom: 9px;
@@ -27,6 +37,20 @@ font-style: normal;
 font-weight: normal;
 font-size: 18px;
 line-height: 24px;
+color: #FFFFFF;
+margin-top: 9px;
+margin-bottom: 9px;
+margin-right: 5px;
+}
+
+.user-nav__cart-value {
+    font-family: "Cuprum", "Arial", sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+display: flex;
+align-items: baseline;
 color: #FFFFFF;
 margin-top: 9px;
 margin-bottom: 9px;
@@ -56,6 +80,7 @@ padding-bottom: 17px;
 padding-left: 56px;
 padding-right: 56px;
 margin-bottom: -4px;
+margin-right: 42px;
 }
 
 .user-nav__input {
@@ -68,13 +93,35 @@ color: #FFFFFF;
 margin-top: 9px;
 margin-bottom: 9px;
 width: 45px;
+border: none;
+outline: none;
+background-color: #293449;
+}
+
+.user-nav__input:focus {
+    outline: none;
+}
+
+.user-nav__input::placeholder {
+    background-color: #293449;
+    font-family: "Cuprum", "Arial", sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+color: #FFFFFF;
 }
 
 .user-nav__logo-wrapper {
     display: flex;
 }
 
-.user-nav__wrapper {
+.user-nav__links {
 display: flex;
 justify-content: space-between;
+}
+
+.user-nav__wrapper {
+    display: flex;
+    justify-content: space-between;
 }
