@@ -1,0 +1,128 @@
+.modal-feedback {
+    display: block;
+    box-sizing: border-box;
+    width: 620px;
+    position: absolute;
+    background: linear-gradient(#EE3643 1.8%, #ffff 1.8%, #ffff 74%, #F4F4F4 24%);
+    filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.75));
+}
+
+.feedback-form {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 46px;
+    padding-bottom: 37px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.feedback-form__name {
+    display: flex;
+    flex-direction: column;
+}
+
+.feedback-form__text {
+    font-family: "Cuprum", "Arial", sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+display: flex;
+align-items: center;
+color: #000000;
+    margin-bottom: 11px;
+}
+
+.feedback-form__input {
+    border: 2px solid #C5C5C5;
+box-sizing: border-box;
+border-radius: 2px;
+padding-left: 12px;
+padding-right: 8px;
+padding-top: 7px;
+padding-bottom: 7px;
+
+&::placeholder {
+    font-family: "PT Sans", "Arial", sans-serif;;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 24px;
+color: #A9A9A9;
+}
+}
+
+.feedback-form__mail {
+    display: flex;
+    flex-direction: column;
+}
+
+.feedback-form__input-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 13px;
+}
+
+.feedback-form__message-text {
+    font-family: "Cuprum", "Arial", sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+display: flex;
+align-items: center;
+color: #000000;
+    margin-bottom: 11px;
+    
+}
+
+.feedback-form__message {
+    height: 114px;
+    margin-bottom: 74px;
+    border: 2px solid #C5C5C5;
+box-sizing: border-box;
+border-radius: 2px;
+padding-top: 6.29px;
+padding-left: 12px;
+
+&::placeholder {
+    font-family: "PT Sans", "Arial", sans-serif;;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 24px;
+color: #A9A9A9;
+}
+}
+
+.feedback-form__button {
+    display: block;
+text-align: center;
+background: #EE3643;
+width: 460px;
+padding-top: 11px;
+padding-bottom: 9px;
+box-sizing: border-box;
+font-family: "Cuprum", "Arial", sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+text-transform: uppercase;
+color: #FFFFFF;
+border: none;
+outline: none;
+}
+
+.modal-feedback__close {
+    border: none;
+    background: #ffff;
+    background-image: url(../../img/icon-close.svg);
+    background-repeat: no-repeat;
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    top: 21px;
+    right: 11px;
+}
