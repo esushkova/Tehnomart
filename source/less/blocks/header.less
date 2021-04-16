@@ -41,6 +41,17 @@ padding-right: 27px;
 padding-left: 45px;
 background: #FFFFFF;
 margin-right: 10px;
+position: relative;
+
+&::before {
+    content: "";
+    position: absolute;
+    background: url(../../img/icon-login.svg);
+    width: 20px;
+    height: 17px;
+    top: 13px;
+    left: 17px;
+}
 }
 
 .header__registration-link {
@@ -72,6 +83,20 @@ padding-bottom: 8px;
 padding-right: 45px;
 padding-left: 74px;
 margin-bottom: 3px;
+position: relative;
+
+&::before {
+    content: "";
+    position: absolute;
+    background: url(../../img/icon-phone.svg);
+    width: 19px;
+    height: 19px;
+    top: 13px;
+    left: 17px;
+    top: 14px;
+    left: 37px;
+}
+
 }
 
 .header__contacts-address {

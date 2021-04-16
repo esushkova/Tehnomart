@@ -20,23 +20,88 @@
 
     &:nth-child(1) {
         background: #FFBF47;
+        position: relative;
+
+        &::before {
+            content: "";
+            position: absolute;
+            background: url(../../img/paint.svg);
+            width: 44px;
+            height: 65px;
+            left: 215px;
+            top: 30px;
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            background: url(../../img/new.svg);
+            width: 70px;
+            height: 70px;
+            top: 0;
+            right: 0;
+        }
     }
 
     &:nth-child(2) {
         background: #3BBCE3;
+        position: relative;
+
+        &::before {
+            content: "";
+            position: absolute;
+            background: url(../../img/drill.svg);
+            width: 75px;
+            height: 61px;
+            left: 200px;
+            top: 32px;
+        }
     }
 
     &:nth-child(3) {
         background: #DC91D8;
+        position: relative;
+
+        &::before {
+            content: "";
+            position: absolute;
+            background: url(../../img/tractor.svg);
+            width: 78px;
+            height: 62px;
+            left: 195px;
+            top: 32px;
+        }
     }
 
     &:nth-child(4) {
         background: #8ED78F;
+        position: relative;
+
+        &::before {
+            content: "";
+            position: absolute;
+            background: url(../../img/cart.svg);
+            width: 59px;
+            height: 72px;
+            left: 203px;
+            top: 20px;
+        }
     }
 
     &:nth-child(5) {
         background: #FFC047;
+        position: relative;
+
+        &::before {
+            content: "";
+            position: absolute;
+            background: url(../../img/car.svg);
+            width: 78px;
+            height: 63px;
+            top: 30px;
+            left: 192px;
     }
+}
 }
 
 .subsections__title {
@@ -156,14 +221,25 @@ top: -266px;
 
 .subsections__slider-prev {
     position: absolute;
-    top: -126px;
+    top: -145px;
     left: 25px;
+    background: url(../../img/icon-left.svg);
+    width: 22px;
+    height: 40px;
+    outline: none;
+    border: none;
 }
 
 .subsections__slider-next {
     position: absolute;
-    top: -126px;
+    top: -145px;
     left: 582px;
+    background: url(../../img/icon-left.svg);
+    transform: rotate(-180deg);
+    width: 22px;
+    height: 40px;
+    outline: none;
+    border: none;
 }
 
 .subsections__slider-control {
