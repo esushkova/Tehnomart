@@ -10,8 +10,62 @@
             width: 468px;
             height: 261px;
             left: 155px;
-            top: 18px;
+            top: 10px;
           }
     }
 
+    &:nth-child(2) {
+        position: relative;
+        display: none;
+
+
+        &::before {
+            content: "";
+            position: absolute;
+            background: url(../../img/medal.svg);
+            width: 389px;
+            height: 283px;
+            left: 155px;
+            top: 12px;
+          }
+        }
+
+        &:nth-child(3) {
+            position: relative;
+            display: none;
+    
+            &::before {
+                content: "";
+                position: absolute;
+                background: url(../../img/credit.svg);
+                width: 465px;
+                height: 285px;
+                left: 155px;
+                top: -19px;
+              }
+            }
+    
+}
+
+.service-list__link {
+    background: #EE3643;
+    font-family: "Cuprum", "Arial", sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+height: 38px;
+width: 194px;
+padding-top: 11px;
+padding-bottom: 9px;
+padding-left: 40px;
+padding-right: 24px;
+text-transform: uppercase;
+text-decoration: none;
+color: #FFFFFF;
+display: flex;
+align-items: center;
+text-align: center;
+box-sizing: border-box;
+margin-top: 35px;
 }
