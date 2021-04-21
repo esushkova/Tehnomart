@@ -51,12 +51,23 @@ padding-top: 13.5px;
 padding-bottom: 17.5px;
 width: 240px;
 
-&:nth-child(1) {
-    color: #32425C; 
+&:hover {
+    background: #293449;
+}
+
+&:active {
     background: #FFFFFF;
-box-shadow: 0px 1px 0px #FFFFFF;
+    color: #32425C;
+    outline: none;
+}
+
+&:focus {
+    background: #FFFFFF;
+    color: #32425C;
+    outline: none;
 }
 }
+
 
 .service__slider {
     display: flex;

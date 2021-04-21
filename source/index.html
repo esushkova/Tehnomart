@@ -19,14 +19,14 @@
                 <img src="img/logo-technomart.svg" width="108" height="18" alt="Логотип">
             </a>
 
-            <form class="user-nav__search-form">
-                <input class="user-nav__input" type="text" placeholder="Поиск:">
+            <form class="user-nav__search-form ">
+                <label class="user-nav__search"><input class="user-nav__input" type="text" placeholder="Поиск:"></label>
             </form>
         </div>
         <div class="user-nav__links">
-            <span class="user-nav__bookmarks-value"><a class="user-nav__bookmarks" href="#">Закладки:</a>0</span>
-            <span class="user-nav__cart-value"><a class="user-nav__cart" href="#">Корзина:</a>0</span>
-            <a class="user-nav__order" href="#">Оформить заказ</a>
+            <a class="user-nav__item user-nav__bookmarks-value" href="#">Закладки: 0</a>
+            <a class="user-nav__item user-nav__cart-value" href="#">Корзина: 0</a>
+            <a class="user-nav__item user-nav__order" href="#">Оформить заказ</a>
         </div>
         </div>
     </div>
@@ -242,7 +242,7 @@
                 стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
             <div class="service__slider">
                 <div class="service__button-wrapper">
-                    <button class="service__button" type="button">Доставка</button>
+                    <button class="service__button service__button-active" type="button">Доставка</button>
                     <button class="service__button" type="button">Гарантия</button>
                     <button class="service__button" type="button">Кредит</button>
                 </div>
@@ -357,14 +357,14 @@
                 </li>
                 <li class="social__item social__item-fb">
                     <a class="social__link" href="#" aria-label="Facebook">
-                        <svg width="12" height="22" viewBox="0 0 12 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg class="social__img" width="12" height="22" viewBox="0 0 12 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M12 4V0H8C5.79086 0 4 1.79086 4 4V8H0V12H4V22H8V12H12V8H8V4H12Z" fill="white"/>
                             </svg>
                     </a>
                 </li>
                 <li class="social__item social__item-ig">
                     <a class="social__link" href="#" aria-label="Instagram">
-                        <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg class="social__img" width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M3 0H18C19.65 0 21 1.35 21 3V18C21 19.65 19.65 21 18 21H3C1.35 21 0 19.65 0 18V3C0 1.35 1.35 0 3 0ZM14 10.5C14 8.57 12.43 7 10.5 7C8.57 7 7 8.57 7 10.5C7 12.43 8.57 14 10.5 14C12.43 14 14 12.43 14 10.5ZM3 18V9H4.181C4.0626 9.49127 4.00186 9.99467 4 10.5C4 14.0899 6.91015 17 10.5 17C14.0899 17 17 14.0899 17 10.5C16.9986 9.99464 16.9379 9.49118 16.819 9H18V18H3ZM14 7H18V3H14V7Z" fill="white"/>
                             </svg>
                     </a>

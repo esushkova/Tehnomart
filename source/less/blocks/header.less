@@ -46,13 +46,27 @@ position: relative;
 &::before {
     content: "";
     position: absolute;
-    background: url(../../img/icon-login.svg);
+    background-image: url("data:image/svg+xml,%3Csvg width='20' height='17' viewBox='0 0 20 17' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M14.1667 8.5L5.71429 0V6H0V11H5.71429V17L14.1667 8.5Z' fill='%23C5C5C5'/%3E%3Cpath d='M16.1771 15.01H11.3895V17H16.1771C18.2514 17 19.0381 15.19 19.0619 13.974V3.028C19.0381 1.811 18.2514 0 16.1771 0H11.3895V1.99H16.1771C16.9762 1.99 17.1219 2.671 17.1391 3.047V13.951C17.1229 14.327 16.9762 15.01 16.1771 15.01Z' fill='%23C5C5C5'/%3E%3C/svg%3E%0A");
     width: 20px;
     height: 17px;
     top: 13px;
     left: 17px;
 }
+
+&:hover {
+color: #EE3643;
 }
+
+&:active {
+    color: #C5C5C5;
+}
+}
+
+.header__login-link:hover::before {
+    fill: #3D546F;
+    }
+
+
 
 .header__registration-link {
     text-decoration: none;
@@ -66,7 +80,16 @@ padding-top: 12px;
 padding-bottom: 12px;
 padding-right: 24px;
 padding-left: 24px;
-background: #FFFFFF;}
+background: #FFFFFF;
+
+&:hover {
+    color: #EE3643;
+    }
+
+&:active {
+    color: #C5C5C5;
+}
+}
 
 .header__contacts-phone {
     text-decoration: none;
