@@ -12,6 +12,86 @@ padding-top: 6px;
 }
 }
 
+.product-item__actions {
+   display: none;
+}
+
+.product-item:hover .product-item__img {
+    display: none;
+}
+
+.product-item:hover .product-item__actions {
+    display: flex;
+    flex-direction: column;
+    margin-top: 38px;
+    margin-bottom: 42px;
+}
+
+.product-item__buy {
+    font-family: "Cuprum", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;  
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 135px;
+    text-align: center;
+    background: #63A63E;
+box-shadow: inset 0px -3px 0px #367315;
+border-radius: 2px;
+text-decoration: none;
+color: #FFFFFF;
+text-transform: uppercase;
+margin-bottom: 10px;
+position: relative;
+
+&::before {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-image: url("data:image/svg+xml,%3Csvg width='15' height='15' viewBox='0 0 15 15' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4.5 15C5.32843 15 6 14.3284 6 13.5C6 12.6716 5.32843 12 4.5 12C3.67157 12 3 12.6716 3 13.5C3 14.3284 3.67157 15 4.5 15Z' fill='white'/%3E%3Cpath d='M12.5 15C13.3284 15 14 14.3284 14 13.5C14 12.6716 13.3284 12 12.5 12C11.6716 12 11 12.6716 11 13.5C11 14.3284 11.6716 15 12.5 15Z' fill='white'/%3E%3Cpath d='M15 2H4.07L3.648 0H0V2H2.031L4.016 11H15V9H9.441L15 6.951V2Z' fill='white'/%3E%3C/svg%3E%0A");
+top: 10px;
+left: 20px;
+opacity: 0.3;
+}
+
+&:hover {
+    background: #5FBB2D;
+}
+
+&:active {
+    background: #518534;
+}
+}
+
+.product-item__bookmarks {
+    font-family: "Cuprum", "Arial", sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 135px;
+    text-align: center;
+    border: 3px solid #63A63E;
+    box-sizing: border-box;
+    border-radius: 2px;
+    text-decoration: none;
+    color: #32425C;
+    text-transform: uppercase;
+
+    &:hover {
+        border: 3px solid #32425C;
+    }
+
+    &:active {
+        opacity: 0.3;
+    }
+}
+
 .product-item__img {
     display: flex;
     align-items: center;

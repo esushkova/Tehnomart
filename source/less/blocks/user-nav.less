@@ -117,9 +117,9 @@ background-color: #63A63E;
 }
 
 &:focus {
-    background: #63A63E;
-    outline: none;
-}
+    &:hover {
+        background: #5FBB2D;
+    }}
 }
 
 .user-nav__logo {
@@ -130,6 +130,7 @@ padding-bottom: 17px;
 padding-left: 56px;
 padding-right: 56px;
 margin-bottom: -4px;
+outline: none;
 
 &:active {
     background: #BA2732;
@@ -211,8 +212,7 @@ color: rgba(255, 255, 255, 1);
     }
 }
 
-.user-nav__search:focus {
-    &::before {
+.user-nav__search:focus::before {
         content: "";
         position: absolute;
         display: block;
@@ -222,4 +222,3 @@ background-image: url(../../img/icon-search-red.svg);
         top: 0px;
         left: 14px;
     }
-}
